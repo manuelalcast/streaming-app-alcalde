@@ -1,0 +1,142 @@
+.bg-color-streaming {
+  background-color: #0f172a;
+  text-align: center;
+}
+
+.bg-card-movie {
+  background-color: #1e293b;
+}
+
+.margin-left-0 {
+  margin-left: 0 !important;
+}
+
+.text-line-3 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 3;
+}
+.div2 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.div3 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.div4 {
+  grid-area: 3 / 1 / 4 / 3;
+}
+.div5 {
+  grid-area: 4 / 1 / 5 / 3;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.5;
+}
+.hr-text:before {
+  content: "";
+  background: linear-gradient(to right, transparent, #818078, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  color: #818078;
+  background-color: #fcfcfa;
+}
+
+.parent-detail-movie {
+  display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+  }
+  
+  .div1-detail-movie { grid-area: 1 / 1 / 7 / 3; }
+  .div2-detail-movie { grid-area: 1 / 3 / 2 / 6; }
+  .div3-detail-movie { grid-area: 1 / 6 / 2 / 7; }
+  .div4-detail-movie { grid-area: 2 / 3 / 3 / 7; }
+  .div5-detail-movie { grid-area: 3 / 3 / 7 / 7; }
+
+.text-left-i {
+  text-align: left !important;
+}
+
+.w-full-button{
+  width: 80% !important;
+}
+
+.card-movie-rent{
+  width: 50% !important;
+}
+
+.card-movie-rent-total{
+  width: 90% !important;
+}
+
+
+.text-orange {
+  color: #F1C40F;
+}
+
+.btn-rent {
+  background-color: #cbc6c6;
+  border-radius: 10px;
+}
+
+.text-gray {
+  color: #626262;
+}
+
+.image-carrousel{
+  background-image: var(image-content);
+}
+
+.center-image{
+  display:block;
+  margin:auto;
+}
+
+.m-10-percent{  
+  margin-bottom: 5%;
+}
+
+.w-50-clap{
+  width: 20rem;
+}
+
+.h-50-clap{
+  width: 20rem;
+}
