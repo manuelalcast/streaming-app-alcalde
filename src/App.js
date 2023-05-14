@@ -3,7 +3,7 @@ import { MovieRouter } from "./router/MovieRouter";
 
 function App() {
   return (
-    <div class="bg-color-streaming min-h-screen py-6 flex flex-col sm:py-2">
+    <div className="bg-color-streaming min-h-screen py-6 flex flex-col sm:py-2">
         <Header />
         <MovieRouter />
     </div>

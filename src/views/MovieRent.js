@@ -44,24 +44,24 @@ export const MovieRent = () => {
           <div className="text-xs m-10-percent">
             <div className="grid grid-cols-2 gap-2 mb-3">
               <div>
-                <span class="font-bold text-base">Días de alquiler:</span>
+                <span className="font-bold text-base">Días de alquiler:</span>
                 <br />
-                <span class="text-base">{days} días</span>
+                <span className="text-base">{days} días</span>
               </div>
               <div>
                 <button
                   type="button"
-                  class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-2 py-2 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
+                  className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-2 py-2 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
                   onClick={lessDays}
                 >
-                  <img class="w-4 h-4" src={Less} alt="img-rent" />
+                  <img className="w-4 h-4" src={Less} alt="img-rent" />
                 </button>
                 <button
                   type="button"
-                  class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-2 py-2 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
+                  className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-2 py-2 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
                   onClick={plusDays}
                 >
-                  <img class="w-4 h-4" src={Plus} alt="img-rent" />
+                  <img className="w-4 h-4" src={Plus} alt="img-rent" />
                 </button>
               </div>
               <div>
@@ -72,24 +72,24 @@ export const MovieRent = () => {
           <div className="text-xs">
             <button
               type="button"
-              class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
-              onClick={() => setStatusRentMovie(true)}
+              className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
+              onClick={() => navigate("/")}
             >
-              <img class="w-4 h-4 mr-2 -ml-1" src={rentIcon} alt="img-rent" />
-              ALQUILAR
+              <img className="w-4 h-4 mr-2 -ml-1" src={Back} alt="img-rent" />
+              VOLVER
             </button>
             <button
               type="button"
-              class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
-              onClick={() => navigate("/")}
+              className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
+              onClick={() => setStatusRentMovie(true)}
             >
-              <img class="w-4 h-4 mr-2 -ml-1" src={Back} alt="img-rent" />
-              VOLVER
+              <img className="w-4 h-4 mr-2 -ml-1" src={rentIcon} alt="img-rent" />
+              ALQUILAR
             </button>
           </div>
         </div>
       </div>
-      {statusRentMovie &&  <Confetti />}
+      {statusRentMovie &&  <Confetti dias={days} />}
         {/*
       ) : null}*/}
     </div>

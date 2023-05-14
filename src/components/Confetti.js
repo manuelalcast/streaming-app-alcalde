@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "../styles/streaming.css";
 import ReactCanvasConfetti from "react-canvas-confetti";
 
-export default function Confetti() {
+export default function Confetti(props) {
   let navigate = useNavigate();
   const refAnimationInstance = useRef(null);
 
@@ -60,7 +60,7 @@ export default function Confetti() {
         <div className="relative w-auto my-6 mx-auto max-w-3xl">
           <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
             <div className="relative p-6 flex-auto">
-              <h1 className="text-2xl font-title">Película alquilada</h1>
+              <h1 className="text-2xl font-title">Película alquilada por {props.dias} día{props.dias===1?'':'s'}</h1>
               <p className="my-4 text-slate-500 text-lg leading-relaxed">
               </p>
             </div>
