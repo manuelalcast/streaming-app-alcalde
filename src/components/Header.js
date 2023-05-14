@@ -8,7 +8,7 @@ export default function Header() {
         <img src={logo} alt="logo" className="h-18 w-20 ml-10 " />
       </div>
       <div>
-        <h1 className="text-white text-4xl mt-3 font-mono">Puzzle</h1>
+        <h1 className="text-white text-4xl mt-3 font-righteous">Puzzle</h1>
       </div>
       <div>
         <img src={logoUnir} alt="logo" className="ml-auto mr-10 h-20 w-70 " />

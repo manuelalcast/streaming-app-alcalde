@@ -4,13 +4,13 @@ import MovieSvg from "../assets/movie.svg";
 function Movie({ movie }) {
   let navigate = useNavigate();
   return (
-    <div className="bg-white rounded-md bg-card-movie shadow-lg m-4">
+    <div className="rounded-md bg-card-movie shadow-lg m-4">
       <div className="md:flex px-4 leading-none max-w-4xl">
-        <div className="flex-none ">
+        <div className="flex-none">
           <img
             src={movie.banner}
             alt="pic"
-            className="h-72 w-56 rounded-md shadow-2xl transform -translate-y-4 border-4 border-gray-300 shadow-lg"
+            className="h-72 w-56 rounded-md shadow-2xl transform -translate-y-4 border-4 border-gray-300 shadow-lg m-auto"
           />
         </div>
         <div className="flex-col text-gray-300">
@@ -24,7 +24,7 @@ function Movie({ movie }) {
             </span>
             <span className="font-bold"></span>
           </div>
-          <p className="hidden md:block px-4 my-4 text-sm text-justify">
+          <p className="px-4 my-4 text-sm text-justify">
             {movie.resume}
           </p>
           <p className="flex text-md px-4 my-2">

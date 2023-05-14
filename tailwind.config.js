@@ -8,7 +8,8 @@ module.exports = {
     },
     fontFamily: {
       title : ['Kanit' , 'sans-serif'],
-      martel : ['Martel Sans' , 'sans-serif']
+      martel : ['Martel Sans' , 'sans-serif'],
+      righteous : ['Righteous' , 'cursive']
     }
   },
   plugins: [],

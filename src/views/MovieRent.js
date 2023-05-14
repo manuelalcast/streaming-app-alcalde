@@ -18,7 +18,7 @@ export const MovieRent = () => {
 
   return (
     <div className="center-image">
-      <div className="bg-white rounded-md bg-card-movie shadow-lg m-4 card-movie-rent center-image sm:card-movie-rent-total">
+      <div className="rounded-md bg-card-movie shadow-lg m-4 card-movie-rent center-image">
         <div className=" ">
           <img
             src={movie.banner}

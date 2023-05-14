@@ -19,7 +19,7 @@ function DetailMovie() {
   }, []);
   
   return (
-      <div className="parent-detail-movie h-full">
+      <div className="parent-detail-movie md:h-full">
         <div className="pl-5 pr-5 div1-detail-movie text-center">
           <img src={objMovie.banner} alt={objMovie.name} className="h-full m-auto" />
         </div>
