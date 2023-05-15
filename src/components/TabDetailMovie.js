@@ -1,6 +1,7 @@
 import CarrouselMovie from '../components/CarrouselMovie'
 import { Tab } from "@headlessui/react";
 import { useLocation } from "react-router-dom";
+import FrameVideo from '../components/FrameVideo';
 
 const MyTabs = () => {
   const location = useLocation();
@@ -16,7 +17,7 @@ const MyTabs = () => {
         <Tab.Panel className="">
             <CarrouselMovie />
         </Tab.Panel>
-        <Tab.Panel><iframe title={objMovie.name} className="w-full-button h-[400px] m-auto" src={objMovie.trailer}></iframe></Tab.Panel>
+        <Tab.Panel><FrameVideo movie={objMovie} /></Tab.Panel>
       </Tab.Panels>
     </Tab.Group>
   );
