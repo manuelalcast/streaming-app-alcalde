@@ -1,0 +1,186 @@
+[
+	{
+		"id" : "13498",
+		"name" : "El show de Truman",
+		"clasification" : "PG",
+		"date" : "5/6/1998",
+		"year" : "1998",
+		"gender" : [
+			"Comedia",
+			"Drama"
+			],
+		"time": "1h 43m",
+		"trailer": "https://www.youtube.com/embed/c3gI9ms8Fdc",
+		"resume": "Truman Burbank es un hombre corriente y algo ingenuo que ha vivido toda su vida en uno de esos pueblos donde nunca pasa nada. Sin embargo, de repente, unos extraños sucesos le hacen sospechar que algo anormal está ocurriendo. Todos sus amigos son actores, toda su ciudad es un plató, toda su vida está siendo filmada y emitida como el reality más ambicioso de la historia.",
+		"director": "Peter Weir",
+		"rating": "9.9",
+		"images": [
+			"https://image.tmdb.org/t/p/original/jKpQiKPYNGBxjsrxZpMGTwggKw8.jpg",
+			"https://image.tmdb.org/t/p/original/bxY7ve1LP8atCIuvr4jeeJMmU4w.jpg",
+			"https://image.tmdb.org/t/p/original/rVOHeP2uU4jtCunXWAWE6Xn5xam.jpg"
+		],
+		"banner" : "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4BGVZSwv5n0hMIAWwiSjMFDQ63K.jpg"
+	},
+	{
+		"id" : "16226",
+		"name" : "Spider-Man: No Way Home",
+		"clasification" : "APT",
+		"date" : "15/12/2021",
+		"year" : "2021",
+		"gender" : [
+			"Ciencia ficción",
+			"Aventura"
+			],
+		"time": "2h 28m",
+		"trailer": "https://www.youtube.com/embed/Df00ZNYEcAY",
+		"resume": "Peter Parker es desenmascarado y por tanto no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un súper héroe. Cuando pide ayuda a Doctor Strange, los riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo que realmente significa ser Spider-Man.",
+		"director": "Jon Watts",
+		"rating": "9.5",
+		"images": [
+			"https://www.themoviedb.org/t/p/original/aRNMwIvEnYEMwGHLCAACyuq2I1K.jpg",
+			"https://www.themoviedb.org/t/p/original/n96AMk265MLWbjnOwWsXAAIXpem.jpg",
+			"https://www.themoviedb.org/t/p/original/fXRDUJQSnsAXXTQsX391ikjdEVo.jpg",
+			"https://www.themoviedb.org/t/p/original/5BjetzdVpWkPNKUIlpasnXVSwCP.jpg"
+		],
+		"banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wngeV2SQk9UllOqZLaBbq16wpy5.jpg"
+	},
+	{
+		"id" : "99639",
+		"name" : "Seven",
+		"clasification" : "R",
+		"date" : "22/9/1995",
+		"year" : "1995",
+		"gender" : [
+			"Crimen",
+			"Misterio"
+			],
+		"time": "2h 7m",
+		"trailer": "https://www.youtube.com/embed/xhzBmjdehPA",
+		"resume": "El teniente Somerset, del departamento de homicidios, está a punto de jubilarse y ser reemplazado por el ambicioso y brillante detective David Mills. Ambos tendrán que colaborar en la resolución de una serie de asesinatos cometidos por un psicópata que toma como base la relación de los siete pecados capitales: gula, pereza, soberbia, avaricia, envidia, lujuria e ira. Los cuerpos de las víctimas, sobre los que el asesino se ensaña de manera impúdica, se convertirán para los policías en un enigma que les obligará a viajar al horror y la barbarie más absoluta.",
+		"director": "David Fincher",
+		"rating": "9",
+		"images": [
+			"https://www.themoviedb.org/t/p/original/vxPrxPufDQc4e2zr492LkXoEjdl.jpg",
+			"https://www.themoviedb.org/t/p/original/kjttc58Nbew9LMEaB4GL8EUVRFJ.jpg",
+			"https://www.themoviedb.org/t/p/original/dYjZ27hDw2QFaEIfzbNGwW0IkV9.jpg",
+			"https://www.themoviedb.org/t/p/original/iwgl8zlrrfvfWp9k9Paj8lvFEvS.jpg"
+		],
+		"banner": "https://www.themoviedb.org/t/p/original/H2XIu60DLyptXYxXeGOBNFIsKr.jpg"
+	},
+	{
+		"id" : "73469",
+		"name" : "Una cuestión de tiempo",
+		"clasification" : "R",
+		"date" : "1/10/2013",
+		"year" : "2013",
+		"gender" : [
+			"Fantasía",
+			"Drama"
+			],
+		"time": "2h 3m",
+		"trailer": "https://www.youtube.com/embed/5DQAZtFHLEA",
+		"resume": "La trama de la película gira en torno a un joven llamado Tim Lake. El protagonista y su familia tienen el curioso don de poder viajar a través del tiempo. Al descubrir esta cualidad, Tim empieza a beneficiarse de ello para cambiar diferentes aspectos de su vida. Se enamora de una chica, Mary, a la que conoce tras transladarse a vivir a Londres por motivos de trabajo. Su historia de amor se verá beneficiada gracias al don de Tim, sin embargo, el protagonista no tardará en darse cuenta de que su habilidad no es capaz de ampararle en algunos problemas y cuestiones familiares.",
+		"director": "Richard Curtis",
+		"rating": "9.7",
+		"images": [
+			"https://image.tmdb.org/t/p/original/5ZoFGrFCKP0QrcfVwOIHiAwunBg.jpg",
+			"https://image.tmdb.org/t/p/original/dKjdNluiIEzCybswqcuwPi2xPrd.jpg",
+			"https://image.tmdb.org/t/p/original/6ASfLUVXRyXct9xlyExpuXIDULX.jpg"
+		],
+		"banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/u8k9KMzZGYgg2f5i8pKj23VMNPZ.jpg"
+	},
+	{
+		"id" : "18305",
+		"name" : "El efecto mariposa",
+		"clasification" : "R",
+		"date" : "23/1/2004",
+		"year" : "2004",
+		"gender" : [
+			"Ciencia ficción",
+			"Suspense"
+			],
+		"time": "1h 53m",
+		"trailer": "https://www.youtube.com/embed/YFH81PxBYR0",
+		"resume": "Evan Treborn, un joven que se está esforzando por superar unos dolorosos recuerdos de su infancia, descubre una técnica que le permite viajar atrás en el tiempo y ocupar su cuerpo de niño para poder cambiar el curso de su dolorosa historia. Sin embargo también descubre que cualquier mínimo cambio en el pasado altera enormemente su futuro.",
+		"director": "Eric Bress",
+		"rating": "9",
+		"images": [
+			"https://image.tmdb.org/t/p/original/qu62CF2eCp0kKJCcVixYIXpuUep.jpg",
+			"https://image.tmdb.org/t/p/original/Aj2gjpdDwJlAxuMB5tiOOXmCipr.jpg",
+			"https://image.tmdb.org/t/p/original/6EZL8EaGE2ii7PULGeJRKOcocyU.jpg"
+		],
+		"banner": "https://www.themoviedb.org/t/p/original/vtqJkVTvrxbk2BehGO6e6izsUBa.jpg"
+	},
+	{
+		"id" : "67754",
+		"name" : "Eterno resplandor de una mente sin recuerdos",
+		"clasification" : "R",
+		"date" : "19/03/2004",
+		"year" : "2004",
+		"gender" : [
+			"Ciencia ficción",
+			"Drama",
+			"Romance"
+			],
+		"time": "1h 48m",
+		"trailer": "https://www.youtube.com/embed/KqCg3tkUcdE",
+		"resume": "Una mujer usa los servicios de una empresa para borrar de su memoria todo recuerdo de su ex pareja. Ofendido, el hombre intenta hacer lo mismo que ella, pero el proceso no sucede según lo esperado y el protagonista debe atravesar la gigantesca marea de recuerdos de su propio cerebro para recomponer las cosas.",
+		"director": "Michel Gondry",
+		"rating": "9.9",
+		"images": [
+			"https://image.tmdb.org/t/p/original/cOG5s8XYVeUyMLxR5zWY8so0qht.jpg",
+			"https://image.tmdb.org/t/p/original/wAPPFkgiG3O5Buott4eZIe3yl0r.jpg",
+			"https://image.tmdb.org/t/p/original/jzZcW65MZQfAgvbEoX8EWCvlxpk.jpg",
+			"https://image.tmdb.org/t/p/original/jz9Kep0xWjiA6QDHSsd43ASxNfj.jpg"
+		],
+		"banner": "https://image.tmdb.org/t/p/original/1DkFrHMitlR5eJ1teNwvvBpMiWs.jpg"
+	},
+	{
+		"id" : "47745",
+		"name" : "Interstellar",
+		"clasification" : "PG-13",
+		"date" : "6/11/2014",
+		"year" : "2014",
+		"gender" : [
+			"Aventura",
+			"Ciencia ficción",
+			"Drama"
+			],
+		"time": "2h 49m",
+		"trailer": "https://www.youtube.com/embed/UoSSbmD9vqc",
+		"resume": "Narra las aventuras de un grupo de exploradores que hacen uso de un agujero de gusano recientemente descubierto para superar las limitaciones de los viajes espaciales tripulados y vencer las inmensas distancias que tiene un viaje interestelar.",
+		"director": "Christopher Nolan",
+		"rating": "9.8",
+		"images": [
+			"https://www.themoviedb.org/t/p/original/pbrkL804c8yAv3zBZR4QPEafpAR.jpg",
+			"https://www.themoviedb.org/t/p/original/5C3RriLKkIAQtQMx85JLtu4rVI2.jpg",
+			"https://www.themoviedb.org/t/p/original/zXevfG1GIYncK4oxXnDkvRBKx5W.jpg",
+			"https://www.themoviedb.org/t/p/original/vXMNOMkRhqrtsSZY6nCGCMkRslM.jpg"
+		],
+		"banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nrSaXF39nDfAAeLKksRCyvSzI2a.jpg"
+	},
+	{
+		"id" : "58715",
+		"name" : "El Club de la Lucha",
+		"clasification" : "R",
+		"date" : "15/10/1999",
+		"year" : "1999",
+		"gender" : [
+			"Comedia",
+			"Drama",
+			"Suspense"
+			],
+		"time": "2h 19m",
+		"trailer": "https://www.youtube.com/embed/aIo4Adm96EA",
+		"resume": "Un joven sin ilusiones lucha contra su insomnio, consecuencia quizás de su hastío por su gris y rutinaria vida. En un viaje en avión conoce a Tyler Durden, un carismático vendedor de jabón que sostiene una filosofía muy particular: el perfeccionismo es cosa de gentes débiles; en cambio, la autodestrucción es lo único que hace que realmente la vida merezca la pena. Ambos deciden entonces formar un club secreto de lucha donde descargar sus frustaciones y su ira que tendrá un éxito arrollador.",
+		"director": "David Fincher",
+		"rating": "9.9",
+		"images": [
+			"https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+			"https://image.tmdb.org/t/p/original/3nv2TEz2u178xPXzdKlZdUh5uOI.jpg",
+			"https://www.themoviedb.org/t/p/original/bsfJoKVAqFzlhvbt8AffjvYAtN4.jpg",
+			"https://www.themoviedb.org/t/p/original/vfEuh0ELDkHWu3UfJiEkWN8Z4tc.jpg"
+		],
+		"banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1yWmCAIGSVNuTOGyz9F48W9g1Ux.jpg"
+	}
+]
