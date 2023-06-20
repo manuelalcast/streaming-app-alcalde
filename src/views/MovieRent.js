@@ -89,7 +89,7 @@ export const MovieRent = () => {
           </div>
         </div>
       </div>
-      {statusRentMovie &&  <Confetti dias={days} />}
+      {statusRentMovie && <Confetti dias={days} id={movie.id} />}
         {/*
       ) : null}*/}
     </div>

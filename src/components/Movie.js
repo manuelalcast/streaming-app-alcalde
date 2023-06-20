@@ -3,6 +3,16 @@ import MovieSvg from "../assets/movie.svg";
 
 function Movie({ movie }) {
   let navigate = useNavigate();
+
+  let arrayGender = movie.genders, arrayGenderTexto = [];
+
+  if (arrayGender.length > 0){
+    for (let i = 0; i < arrayGender.length; i++) {
+      const elementGender = arrayGender[i];
+      arrayGenderTexto.push(elementGender.name);
+    }
+  }
+
   return (
     <div className="rounded-md bg-card-movie shadow-lg m-4">
       <div className="md:flex px-4 leading-none max-w-4xl">
@@ -20,7 +30,7 @@ function Movie({ movie }) {
           <hr className="hr-text" data-content="" />
           <div className="text-md flex justify-between px-4 my-2">
             <span className="font-bold">
-              {movie.time} | {movie.gender.toString()}
+              {movie.time} | {arrayGenderTexto.toString()}
             </span>
             <span className="font-bold"></span>
           </div>

@@ -38,7 +38,7 @@ export const FindMovie = () => {
 };
 
 function searchCharacters(search) {
-  return fetch('./movies.json'
+  return fetch(process.env.REACT_APP_BASE_URL + '/movies?name='+search+'&resume='+search+'&clasification=' + search + ''
   ,{
     headers : { 
       'Content-Type': 'application/json',

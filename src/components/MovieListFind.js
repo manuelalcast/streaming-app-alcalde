@@ -7,7 +7,7 @@ function Movie({ movie }) {
           onClick={() => navigate("/movie", { state: movie })}
     >
       <img
-        src={movie.images[0]}
+        src={movie.images[0].image}
         alt="pic"
         className="h-25 w-72 rounded-md shadow-2xl transform -translate-y-4 border-4 border-gray-300 shadow-lg m-auto cursor-pointer"
       />

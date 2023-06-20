@@ -6,7 +6,14 @@ function CarrouselMovie() {
   const location = useLocation();
   var objMovie = location.state;
 
-  const slides = objMovie.images;
+  const arrayImages = objMovie.images;
+  let slides = [];
+  if (arrayImages.length > 0){
+    for (let i = 0; i < arrayImages.length; i++) {
+      const elementImage = arrayImages[i];
+      slides.push(elementImage.image);
+    }
+  }
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

@@ -22,6 +22,68 @@ export default function Confetti(props) {
 
   useEffect(() => {
     fire();
+
+    function fetchCreateRent() {
+
+
+      const current = new Date();
+      let monthInicio = current.getMonth()+1;
+      monthInicio = ( monthInicio.toString().length === 1 ? ('0'+monthInicio) : monthInicio )
+      const dateToday = `${current.getFullYear()}/${monthInicio}/${current.getDate()}`;
+      var fecha = new Date();
+      fecha.setDate(fecha.getDate() + props.dias);
+      let monthFin = fecha.getMonth()+1;
+      monthFin = ( monthFin.toString().length === 1 ? ('0'+monthFin) : monthFin )
+      const dateEnd = `${fecha.getFullYear()}/${monthFin}/${fecha.getDate()}`;
+
+      fetch(process.env.REACT_APP_OPERADOR_URL + "/rentals" , {
+        method: 'POST',
+        body: JSON.stringify({
+          "user_id" : 1, // usuario 1 siempre por uso de "sesion activa"
+          "rented_at" : dateToday,
+          "rented_to" : dateEnd,
+          "total" : (process.env.REACT_APP_PRECIO_PELICULA_X_DIA * props.dias )
+        }
+        ),
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+        },
+      })
+         .then((response) => response.json())
+         .then((data) => {
+          fetchCreateRentDetail(data.data);
+            // Handle data
+         })
+         .catch((err) => {
+            console.log(err.message);
+         });
+      
+    }
+
+    function fetchCreateRentDetail(objRent) {
+      console.log(objRent);
+      fetch(process.env.REACT_APP_OPERADOR_URL + "/rentals/"+objRent.id+"/movies", {
+        method: 'POST',
+        body: JSON.stringify({
+          "movie_id": props.id
+        }        
+        ),
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+          'Access-Control-Allow-Credentials' : 'true'
+        },
+      })
+         .then((response) => response.json())
+         .then((data) => {
+            console.log(data);
+         })
+         .catch((err) => {
+            console.log(err.message);
+         });
+    }
+
+    fetchCreateRent();
+
   });
 
   const fire = useCallback(() => {
