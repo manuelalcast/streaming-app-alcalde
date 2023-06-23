@@ -10,13 +10,14 @@ function DetailMovie() {
 
   const location = useLocation();
   var objMovie = location.state;
+  console.log('eiuhfrieuhr', objMovie);
 
   const [validateMovieStatus, setValidateMovieStatus] = useState(false);
 
   useEffect(() => {
     function fetchValidateMovie() {
       fetch(
-        process.env.REACT_APP_OPERADOR_URL + "/rentals/movies/" + objMovie.id
+        process.env.REACT_APP_OPERADOR_URL + "/rentals/movies/" + objMovie?.id
       )
         .then((res) => res.json())
         .then((res) => {
@@ -36,11 +37,11 @@ function DetailMovie() {
     fetchValidateMovie();
   }, []);
 
-  let arrayGender = objMovie.genders,
+  let arrayGender = objMovie?.gender,
     arrayGenderTexto = [];
 
-  if (arrayGender.length > 0) {
-    for (let i = 0; i < arrayGender.length; i++) {
+  if (arrayGender?.length > 0) {
+    for (let i = 0; i < arrayGender?.length; i++) {
       const elementGender = arrayGender[i];
       arrayGenderTexto.push(elementGender.name);
     }
@@ -50,22 +51,22 @@ function DetailMovie() {
     <div className="parent-detail-movie md:h-full">
       <div className="pl-5 pr-5 div1-detail-movie text-center">
         <img
-          src={objMovie.banner}
-          alt={objMovie.name}
+          src={objMovie?.banner}
+          alt={objMovie?.name}
           className="h-full m-auto"
         />
       </div>
       <div className="ml-6 mt-10 div2-detail-movie">
         <h1 className="text-6xl font-title text-white text-left-i">
-          {objMovie.name}
+          {objMovie?.name}
         </h1>
         <h1 className="mt-3 text-2xl font-title text-gray text-left-i">
-          {objMovie.year} | {objMovie.time} | {objMovie.clasification}
+          {objMovie?.yearRelase} | {objMovie?.duration} | {objMovie?.clasification}
         </h1>
       </div>
       <div className="div3-detail-movie mt-10 text-right mr-6">
         <h1 className="text-5xl font-title text-white">
-          {objMovie.rating} <span className="text-orange">★</span>{" "}
+          {objMovie?.rating} <span className="text-orange">★</span>{" "}
         </h1>
         {validateMovieStatus ? (
           <button
@@ -88,20 +89,20 @@ function DetailMovie() {
       </div>
       <div className="ml-6 mr-6 div4-detail-movie text-left-i">
         <h1 className="text-1xl font-title text-white text-justify mb-3">
-          {objMovie.resume}
+          {objMovie?.resume}
         </h1>
         <span className="text-1xl font-title text-gray text-justify">
           Director:
         </span>{" "}
         <span className="text-1xl font-title text-white text-justify">
-          {objMovie.director}
+          {objMovie?.director}
         </span>
         <br />
         <span className="text-1xl font-title text-gray text-justify">
           Género:
-        </span>{" "}
+        </span>
         <span className="text-1xl font-title text-white text-justify">
-          {arrayGenderTexto.toString()}
+          {arrayGender.map(gender=> <p>- {gender}</p>)}
         </span>
       </div>
       <div className="div5-detail-movie ml-6 mr-6">

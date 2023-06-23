@@ -10,7 +10,8 @@ export const Movies = () => {
   useEffect(() => {
     fetch(process.env.REACT_APP_BASE_URL + '/movies')
       .then((res) => res.json())
-      .then((res) => setMovies(res)).catch(rejected => {
+      .then((res) => setMovies(res))
+      .catch(rejected => {
         console.log(rejected);
     });
   }, []);
