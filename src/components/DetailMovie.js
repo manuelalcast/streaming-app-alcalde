@@ -10,7 +10,6 @@ function DetailMovie() {
 
   const location = useLocation();
   var objMovie = location.state;
-  console.log('eiuhfrieuhr', objMovie);
 
   const [validateMovieStatus, setValidateMovieStatus] = useState(false);
 

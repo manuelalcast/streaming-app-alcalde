@@ -61,7 +61,6 @@ export default function Confetti(props) {
     }
 
     function fetchCreateRentDetail(objRent) {
-      console.log(objRent);
       fetch(process.env.REACT_APP_OPERADOR_URL + "/rentals/"+objRent.id+"/movies", {
         method: 'POST',
         body: JSON.stringify({
