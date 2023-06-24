@@ -6,33 +6,33 @@ function CarrouselMovie() {
   const location = useLocation();
   var objMovie = location.state;
 
-  const arrayImages = objMovie.images;
-  let slides = [];
-  if (arrayImages.length > 0){
-    for (let i = 0; i < arrayImages.length; i++) {
-      const elementImage = arrayImages[i];
-      slides.push(elementImage.image);
-    }
-  }
+  const image = objMovie?.banner;
+  // let slides = [];
+  // if (arrayImages?.length > 0){
+  //   for (let i = 0; i < arrayImages.length; i++) {
+  //     const elementImage = arrayImages[i];
+  //     slides.push(elementImage.image);
+  //   }
+  // }
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-    setCurrentIndex(newIndex);
+    // const isFirstSlide = currentIndex === 0;
+    // const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    // setCurrentIndex(newIndex);
   };
 
   const nextSlide = () => {
-    const isLastSlide = currentIndex === slides.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
+    // const isLastSlide = currentIndex === slides.length - 1;
+    // const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    // setCurrentIndex(newIndex);
   };
 
   return (
     <div className="h-[400px] w-full-button m-auto relative group">
       <img
-        src={slides[currentIndex]}
+        src={image}
         alt="image_carrousel"
         className="w-full h-full bg-center bg-cover duration-500 "
       />

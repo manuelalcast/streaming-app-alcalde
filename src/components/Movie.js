@@ -6,7 +6,7 @@ function Movie({ movie }) {
 
   let arrayGender = movie.genders, arrayGenderTexto = [];
 
-  if (arrayGender.length > 0){
+  if (arrayGender?.length > 0){
     for (let i = 0; i < arrayGender.length; i++) {
       const elementGender = arrayGender[i];
       arrayGenderTexto.push(elementGender.name);

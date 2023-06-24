@@ -28,8 +28,8 @@ export const FindMovie = () => {
           <Loading />
         )}
         <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 mt-6">
-          {results.map((movie) => (
-            <MovieListFind key={movie.id} movie={movie} />
+          {results?.map((movie) => (
+            <MovieListFind key={movie?.id} movie={movie} />
           ))}
         </div>
       </div>
@@ -38,7 +38,7 @@ export const FindMovie = () => {
 };
 
 function searchCharacters(search) {
-  return fetch(process.env.REACT_APP_BASE_URL + '/movies?name='+search+'&resume='+search+'&clasification=' + search + ''
+  return fetch(process.env.REACT_APP_BASE_URL + '/movies?name='+search
   ,{
     headers : { 
       'Content-Type': 'application/json',
